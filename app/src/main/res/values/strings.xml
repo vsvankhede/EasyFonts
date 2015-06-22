@@ -5,4 +5,36 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="roboto_black">Roboto Black</string>
+    <string name="roboto_blackitalic">Roboto Black-Italic</string>
+    <string name="roboto_bold">Roboto Bold</string>
+    <string name="roboto_bolditalic">Roboto Bold-Italic</string>
+    <string name="roboto_italic">Roboto Italic</string>
+    <string name="roboto_light">Roboto Light</string>
+    <string name="roboto_lightitalic">Roboto Light-Italic</string>
+    <string name="roboto_medium">Roboto Medium</string>
+    <string name="roboto_mediumitalic">Roboto Medium-Italic</string>
+    <string name="roboto_regular">Roboto Regular</string>
+    <string name="roboto_thin">Roboto Thin</string>
+    <string name="roboto_thinitalic">Roboto Thin-Italic</string>
+
+    <string name="android_nation">Android Nation</string>
+    <string name="android_nation_bold">Android Nation-Bold</string>
+    <string name="android_nation_italic">Android Nation-Italic</string>
+
+    <string name="droid_robot">Droid Robot</string>
+
+    <string name="droid_serif_bold">Droid Serif-Bold</string>
+    <string name="droid_serif_bold_italic">Droid Serif-BoldItalic</string>
+    <string name="droid_serif_italic">Droid Serif-Italic</string>
+    <string name="droid_serif_regular">Droid Serif-Regular</string>
+
+    <string name="freedom">Freedom</string>
+
+    <string name="fun_raiser">Fun Raiser</string>
+
+    <string name="green_avocado">Green Avocado</string>
+
+    <string name="recognition">Recognition</string>
+
 </resources>

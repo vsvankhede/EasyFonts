@@ -1,19 +1,138 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- Roboto -->
+    <TextView
+        android:id="@+id/tv_roboto_black"
+        android:text="@string/roboto_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_black_italic"
+        android:text="@string/roboto_blackitalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_bold"
+        android:text="@string/roboto_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_bold_italic"
+        android:text="@string/roboto_bolditalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_italic"
+        android:text="@string/roboto_italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_light"
+        android:text="@string/roboto_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_light_italic"
+        android:text="@string/roboto_lightitalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_medium"
+        android:text="@string/roboto_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_medium_italic"
+        android:text="@string/roboto_mediumitalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_regular"
+        android:text="@string/roboto_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_thin"
+        android:text="@string/roboto_thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_roboto_thin_italic"
+        android:text="@string/roboto_thinitalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Android Nation -->
+    <TextView
+        android:id="@+id/tv_android_nation"
+        android:text="@string/android_nation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_android_nation_bold"
+        android:text="@string/android_nation_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_android_nation_italic"
+        android:text="@string/android_nation_italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Droid Robot -->
+    <TextView
+        android:id="@+id/tv_droid_robot"
+        android:text="@string/droid_robot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Droid Serif -->
+    <TextView
+        android:id="@+id/tv_droid_serif_bold"
+        android:text="@string/droid_serif_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_droid_serif_bold_italic"
+        android:text="@string/droid_serif_bold_italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_droid_serif_italic"
+        android:text="@string/droid_serif_italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_droid_serif_regular"
+        android:text="@string/droid_serif_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Freedom -->
+    <TextView
+        android:id="@+id/tv_freedom"
+        android:text="@string/freedom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Fun Raiser -->
+    <TextView
+        android:id="@+id/tv_fun_raiser"
+        android:text="@string/fun_raiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Green Avocado -->
+    <TextView
+        android:id="@+id/tv_green_avocado"
+        android:text="@string/green_avocado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Recognition -->
+    <TextView
+        android:id="@+id/tv_recognition"
+        android:text="@string/recognition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/tv_hello_world"
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/tv_hello_world_2"
-        android:layout_below="@+id/tv_hello_world"
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+</LinearLayout>
