@@ -1,7 +1,7 @@
 ![alt tag](https://github.com/vsvankhede/easyfonts/blob/master/images/banner.png)
 # EasyFonts
 
-A simple useful android library to use custom fonts in app development with adding downloadin and adding fonts into asset/resource. By using this library developers should not have to worry about Typeface object creation for every new type fonts.
+A simple and useful android library to use custom fonts in android apps without adding fonts into asset/resource folder.Also by using this library developer should not have to worry about `Typeface` object creation for every new type fonts he use.
 
 EasyFonts will handle all this for you.
 
@@ -24,7 +24,7 @@ dependencies {
         compile 'com.vstechlab.easyfonts:easyfonts:0.9.0'
     }
 ```
-for Maven add:
+for Maven:
 ```
 repositories {
     maven {
@@ -37,7 +37,7 @@ dependencies {
 ```
 
 ### Usage
-You can set number of fontface provided by EasyFont to your TextView by passing `EasyFonts.yourFont(Context context)` to `setTypeface()`.
+You can set number of font face provided by EasyFont to your `TextView` by passing `EasyFonts.yourFont(Context context)` to `setTypeface()`.
 ```
 TextView tv_hello = (TextView) findViewById(R.id.tv_hello);
 tv_hello_world.setTypeface(EasyFonts.robotoThin(this));
