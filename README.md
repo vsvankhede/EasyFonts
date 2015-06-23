@@ -1,11 +1,11 @@
 ![alt tag](https://github.com/vsvankhede/easyfonts/blob/master/images/banner.png)
 # EasyFonts
 
-A simple and useful android library to use custom fonts in android apps without adding fonts into asset/resource folder.Also by using this library developer should not have to worry about `Typeface` object creation for every new type fonts he use.
+A simple and useful android library to use custom fonts in android apps without adding fonts into asset/resource folder.Also by using this library developer should not have to worry about `Typeface` object creation for every new font that he use.
 
 EasyFonts will handle all this for you.
 
-Type of fonts provided:
+Type of fonts available:
 * Roboto
 * Droid Serif
 * Droid Robot
@@ -42,6 +42,7 @@ You can set number of font face provided by EasyFont to your `TextView` by passi
 TextView tv_hello = (TextView) findViewById(R.id.tv_hello);
 tv_hello_world.setTypeface(EasyFonts.robotoThin(this));
 ```
+You can also check sample project created in app directory.
 
 ## Version: 0.9.0
 Initial build
