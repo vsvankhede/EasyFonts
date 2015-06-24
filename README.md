@@ -21,7 +21,7 @@ Type of fonts available:
 Add gradle dependency with command:
 ```
 dependencies {
-        compile 'com.vstechlab.easyfonts:easyfonts:0.9.0'
+        compile 'com.vstechlab.easyfonts:easyfonts:0.9.6'
     }
 ```
 for Maven:
@@ -32,7 +32,7 @@ repositories {
     }
 }
 dependencies {
-        compile 'com.vstechlab.easyfonts:easyfonts:0.9.0'
+        compile 'com.vstechlab.easyfonts:easyfonts:0.9.6'
     }
 ```
 
@@ -40,11 +40,11 @@ dependencies {
 You can set number of font face provided by EasyFont to your `TextView` by passing `EasyFonts.yourFont(Context context)` to `setTypeface()`.
 ```
 TextView tv_hello = (TextView) findViewById(R.id.tv_hello);
-tv_hello_world.setTypeface(EasyFonts.robotoThin(this));
+tv_hello.setTypeface(EasyFonts.robotoThin(this));
 ```
 You can also check sample project created in app directory.
 
-## Version: 0.9.0
+## Version: 0.9.6
 Initial build
 
 ## License
