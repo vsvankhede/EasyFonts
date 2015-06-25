@@ -1,6 +1,6 @@
 ![alt tag](https://github.com/vsvankhede/easyfonts/blob/master/images/banner.png)
 # EasyFonts
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyFonts-green.svg?style=flat)](https://android-arsenal.com/details/1/2044)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyFonts-green.svg?style=flat)](https://android-arsenal.com/details/1/2044)           ![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 A simple and useful android library to use custom fonts in android apps without adding fonts into asset/resource folder.Also by using this library developer should not have to worry about `Typeface` object creation for every new font that he use.
 
