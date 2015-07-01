@@ -34,7 +34,9 @@ import java.io.InputStream;
  */
 final class FontSourceProcessor {
     private static final String TAG = "FontSourceProcessor";
-
+    /**
+     * parse raw font resource path
+     */
     public static Typeface process(int resource, Context context){
         Typeface sResTypeface;
         InputStream sInputStream = null;
