@@ -1,10 +1,29 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.vstechlab'
-    PUBLISH_ARTIFACT_ID = 'easyfonts'
-    PUBLISH_VERSION = '1.0.0'
+    bintrayRepo = 'maven'
+    bintrayName = 'easyfonts'
+
+    publishedGroupId = 'com.vstechlab.easyfonts'
+    libraryName = 'EasyFonts'
+    artifact = 'easyfonts'
+
+    libraryDescription = 'A wrapper for Typface object creation for android'
+
+    siteUrl = 'https://github.com/vsvankhede/easyfonts'
+    gitUrl = 'https://github.com/vsvankhede/easyfonts.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'vsvankhede'
+    developerName = 'Vijay Vankhede'
+    developerEmail = 'vijay.s.vankhede@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
+
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
@@ -12,8 +31,8 @@ android {
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.1.1"
     }
     buildTypes {
         release {
@@ -22,6 +41,8 @@ android {
         }
     }
 }
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

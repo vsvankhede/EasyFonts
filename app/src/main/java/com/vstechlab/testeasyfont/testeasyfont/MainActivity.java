@@ -1,6 +1,5 @@
 package com.vstechlab.testeasyfont.testeasyfont;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -8,10 +7,6 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.vstechlab.easyfonts.EasyFonts;
-
-import junit.framework.TestCase;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     // Roboto
@@ -46,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
     TextView tv_green_avocado;
 
     TextView tv_recognition;
+
+    // Walkway
+    TextView tv_walkway_black;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         tv_green_avocado = (TextView) findViewById(R.id.tv_green_avocado);
         tv_recognition = (TextView) findViewById(R.id.tv_recognition);
 
+        tv_walkway_black = (TextView) findViewById(R.id.tv_walkway_black);
+
         // Set typeface
         tv_roboto_black.setTypeface(EasyFonts.robotoBlack(this));
         tv_roboto_black_italic.setTypeface(EasyFonts.robotoBlackItalic(this));
@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
         tv_fun_raiser.setTypeface(EasyFonts.funRaiser(this));
         tv_green_avocado.setTypeface(EasyFonts.greenAvocado(this));
         tv_recognition.setTypeface(EasyFonts.recognition(this));
+
+        tv_walkway_black.setTypeface(EasyFonts.walkwayBlack(this));
 
         return true;
     }
