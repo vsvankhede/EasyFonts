@@ -8,14 +8,8 @@ A simple and useful android library to use custom fonts in android apps without 
 EasyFonts will handle all this for you.
 
 Type of fonts available:
-* Roboto
-* Droid Serif
-* Droid Robot
-* Freedom
-* Fun Raiser
-* Android Nation
-* Green Avocado
-* Recognition
+
+![alt tag](https://github.com/vsvankhede/easyfonts/blob/master/images/fontface_list.png)
 
 ## Getting Started
 
@@ -23,7 +17,7 @@ Type of fonts available:
 Add gradle dependency with command:
 ```
 dependencies {
-        compile 'com.vstechlab.easyfonts:easyfonts:0.9.6'
+        compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
     }
 ```
 for Maven:
@@ -34,7 +28,7 @@ repositories {
     }
 }
 dependencies {
-        compile 'com.vstechlab.easyfonts:easyfonts:0.9.6'
+        compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
     }
 ```
 
@@ -46,7 +40,7 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 ```
 You can also check sample project created in app directory.
 
-## Version: 0.9.6
+## Version: 1.0.0
 Initial build
 
 ## License
