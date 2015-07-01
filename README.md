@@ -41,7 +41,7 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 You can also check sample project created in app directory.
 
 ## Version: 1.0.0
-Initial build
+Stable release
 
 ## License
 ```
