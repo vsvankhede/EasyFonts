@@ -7,7 +7,7 @@ A simple and useful android library to use custom fonts in android apps without 
 
 EasyFonts will handle all this for you.
 
-Type of fonts available:
+###Type of fonts available:
 
 ![alt tag](https://github.com/vsvankhede/easyfonts/blob/master/images/fontface_list.png)
 
