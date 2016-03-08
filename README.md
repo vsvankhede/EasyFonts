@@ -15,13 +15,13 @@ EasyFonts will handle all this for you.
 
 ### Installation
 Add gradle dependency with command:
-```
+```groovy
 dependencies {
         compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
     }
 ```
 for Maven:
-```
+```groovy
 repositories {
     maven {
         url 'https://dl.bintray.com/vsvankhede/maven/'
@@ -34,7 +34,7 @@ dependencies {
 
 ### Usage
 You can set number of font face provided by EasyFont to your `TextView` by passing `EasyFonts.yourFont(Context context)` to `setTypeface()`.
-```
+```java
 TextView tv_hello = (TextView) findViewById(R.id.tv_hello);
 tv_hello.setTypeface(EasyFonts.robotoThin(this));
 ```
@@ -45,7 +45,7 @@ Stable release
 
 ## License
 ```
-Copyright 2015, Vijay Vankhede
+Copyright 2016, Vijay Vankhede
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
