@@ -42,6 +42,10 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 ```
 You can also check sample project created in app directory.
 
+### Apps using EasyFonts
+![alt tag](https://github.com/vsvankhede/EasyFonts/blob/master/images/skooly_2.png)    [Skooly](https://play.google.com/store/apps/details?id=com.skooly.app)
+-------------------------------------------------------------------------------------------------
+
 ## Version: 1.0.0
 Stable release
 
