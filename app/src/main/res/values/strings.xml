@@ -37,4 +37,9 @@
 
     <string name="recognition">Recognition</string>
 
+    <string name="toast_fonts">All fonts in toast</string>
+    <string name="title_activity_toasts">ToastsActivity</string>
+    <string name="next_font">Next font</string>
+
+
 </resources>

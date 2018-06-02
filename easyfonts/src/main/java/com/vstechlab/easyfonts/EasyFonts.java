@@ -17,8 +17,12 @@ package com.vstechlab.easyfonts;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Pair;
 
 import com.vstechlab.testeasyfont.easyfonts.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Wraps Typeface object creation.
@@ -461,5 +465,114 @@ public final class EasyFonts {
      */
     public static Typeface cac_champagne(Context context){
         return FontSourceProcessor.process(R.raw.cac_champagne, context);
+    }
+
+    /**
+     * Get all fonts
+     * @param context Context
+     * @return ArrayList of all available fonts
+     */
+
+    public static ArrayList<Pair<Typeface,String>> getAllFonts(Context context) {
+        ArrayList<Pair<Typeface,String>> typefaces = new ArrayList<>();
+
+        typefaces.add(new Pair<>(androidNation(context),
+                "android nation"));
+        typefaces.add(new Pair<>(androidNationBold(context),
+                "android nation bold"));
+        typefaces.add(new Pair<>(androidNationItalic(context),
+                "android nation italic"));
+        typefaces.add(new Pair<>(greenAvocado(context),
+                "green avocado"));
+        typefaces.add(new Pair<>(cac_champagne(context),
+                "cac champagne"));
+        typefaces.add(new Pair<>(captureIt(context),
+                "capture it"));
+        typefaces.add(new Pair<>(captureIt2(context),
+                "capture it2"));
+        typefaces.add(new Pair<>(caviarDreams(context),
+                "caviar dreams"));
+        typefaces.add(new Pair<>(caviarDreamsBold(context),
+                "caviar dreams bold"));
+        typefaces.add(new Pair<>(caviarDreamsItalic(context),
+                "caviar dreams italic"));
+        typefaces.add(new Pair<>(caviarDreamsBoldItalic(context),
+                "caviar dreams bold italic"));
+        typefaces.add(new Pair<>(droidRobot(context),
+                "droid fobot"));
+        typefaces.add(new Pair<>(droidSerifBold(context),
+                "droid serif bold"));
+        typefaces.add(new Pair<>(droidSerifItalic(context),
+                "droid serif italic"));
+        typefaces.add(new Pair<>(droidSerifBoldItalic(context),
+                "droid serif bold italic"));
+        typefaces.add(new Pair<>(droidSerifRegular(context),
+                "droid serif regular"));
+        typefaces.add(new Pair<>(freedom(context),
+                "freedom"));
+        typefaces.add(new Pair<>(funRaiser(context),
+                "fun raiser"));
+        typefaces.add(new Pair<>(ostrichBlack(context),
+                "ostrich black"));
+        typefaces.add(new Pair<>(ostrichBold(context),
+                "ostrich bold"));
+        typefaces.add(new Pair<>(ostrichDashed(context),
+                "ostrich dashed"));
+        typefaces.add(new Pair<>(ostrichLight(context),
+                "ostrich light"));
+        typefaces.add(new Pair<>(ostrichRegular(context),
+                "ostrich regular"));
+        typefaces.add(new Pair<>(ostrichRounded(context),
+                "ostrich rounded"));
+        typefaces.add(new Pair<>(recognition(context),
+                "recognition"));
+        typefaces.add(new Pair<>(robotoBlack(context),
+                "roboto black"));
+        typefaces.add(new Pair<>(robotoBlackItalic(context),
+                "roboto black italic"));
+        typefaces.add(new Pair<>(robotoBold(context),
+                "roboto bold"));
+        typefaces.add(new Pair<>(robotoBoldItalic(context),
+                "roboto bold italic"));
+        typefaces.add(new Pair<>(robotoItalic(context),
+                "roboto italic"));
+        typefaces.add(new Pair<>(robotoLight(context),
+                "roboto light"));
+        typefaces.add(new Pair<>(robotoLightItalic(context),
+                "roboto light italic"));
+        typefaces.add(new Pair<>(robotoMedium(context),
+                "roboto medium"));
+        typefaces.add(new Pair<>(robotoMediumItalic(context),
+                "roboto medium italic"));
+        typefaces.add(new Pair<>(robotoRegular(context),
+                "roboto regular"));
+        typefaces.add(new Pair<>(robotoThin(context),
+                "roboto thin"));
+        typefaces.add(new Pair<>(robotoThinItalic(context),
+                "roboto thin italic"));
+        typefaces.add(new Pair<>(tangerineBold(context),
+                "tangerine bold"));
+        typefaces.add(new Pair<>(tangerineRegular(context),
+                "tangerine regular"));
+        typefaces.add(new Pair<>(walkwayBlack(context),
+                "walkway black"));
+        typefaces.add(new Pair<>(walkwayBold(context),
+                "walkway bold"));
+        typefaces.add(new Pair<>(walkwayOblique(context),
+                "walkway oblique"));
+        typefaces.add(new Pair<>(walkwayObliqueBlack(context),
+                "walkway oblique black"));
+        typefaces.add(new Pair<>(walkwayObliqueSemiBold(context),
+                "walkway oblique semi bold"));
+        typefaces.add(new Pair<>(walkwayObliqueUltraBold(context),
+                "walkway oblique ultra bold"));
+        typefaces.add(new Pair<>(walkwaySemiBold(context),
+                "walkway semi bold"));
+        typefaces.add(new Pair<>(walkwayUltraBold(context),
+                "walkway ultra bold"));
+        typefaces.add(new Pair<>(windSong(context),
+                "wind song"));
+
+        return typefaces;
     }
 }
